@@ -28,6 +28,10 @@ The `font_copy_and_verify.py` script copies font files from a source directory t
 #### Usage
 1. Open the script `font_copy_and_verify.py` in your preferred code editor.
 2. Modify the `src_directory` and `dst_directory` variables to point to your source and destination directories.
+ ```python
+   src_directory = r'path/to/source/directory'
+   dst_directory = r'path/to/destination/directory'
+   ```
 3. Run code
 
 ### 3. Font Conversion
@@ -36,6 +40,9 @@ The `font_conversion.py` script converts OTF and WOFF font files to TTF format. 
 #### Usage
 1. Open the script `font_conversion.py` in your preferred code editor.
 2. Modify the `directory_path` variable to point to the directory containing the fonts you want to convert.
+```python
+   directory_path = r'path/to/directory/for/conversion'
+   ```
 3. Run code
 
 ### 4. Font Validation
@@ -44,15 +51,19 @@ The `font_validation.py` script validates TTF font files in a directory and remo
 #### Usage
 1. Open the script `font_validation.py` in your preferred code editor.
 2. Modify the `directory_path` variable to point to the directory containing the TTF fonts you want to validate.
+```python
+   directory_path = r'path/to/ttf/directory'
+   ```
 3. Run code
 
 ### How This Toolkit Can Help
 This toolkit can help you manage large collections of font files by automating common tasks such as analyzing, copying, verifying, converting, and validating fonts. It can be particularly useful for graphic designers, typographers, and developers working with diverse font collections.
 
 ### Key Benefits
-Automation: Save time by automating repetitive tasks related to font file management.
-Accuracy: Ensure the validity of your font files and avoid using corrupted or invalid fonts.
-Convenience: Easily convert between different font formats to suit your project requirements.
-Analysis: Gain insights into your font collection by identifying duplicates and counting unique fonts by type.
+* Automation: Save time by automating repetitive tasks related to font file management.
+* Accuracy: Ensure the validity of your font files and avoid using corrupted or invalid fonts.
+* Convenience: Easily convert between different font formats to suit your project requirements.
+* Analysis: Gain insights into your font collection by identifying duplicates and counting unique fonts by type.
+
 Feel free to explore and modify the scripts to fit your specific needs. Contributions and suggestions are welcome!
 
